@@ -8,11 +8,11 @@ def buscar_estudiante():
     if codigo in estudiantes:
         nombre, pais, curso = estudiantes[codigo]
         print("\n--- RESULTADO ---")
-        print(f"📌 Nombre: {nombre}")
-        print(f"🌎 País: {pais}")
-        print(f"📚 Curso: {curso}")
+        print(f" Nombre: {nombre}")
+        print(f" País: {pais}")
+        print(f" Curso: {curso}")
     else:
-        print("⚠️ Error: Código no encontrado")
+        print(" Error: Código no encontrado")
 
 # Menú base del programa
 while True:
